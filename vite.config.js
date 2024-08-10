@@ -9,9 +9,4 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: './', // This is equivalent to `publicPath` in Vue CLI
-  build: {
-    outDir: 'dist', // This is equivalent to `outputDir`
-    assetsDir: 'static', // This is equivalent to `assetsDir`
-  },
 })
